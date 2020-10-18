@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- OWN CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <main>
+    <div id="clouds">
+      <img src="clouds/cloud1.png" style="--i:1;">
+      <img src="clouds/cloud2.png" style="--i:2;">
+      <img src="clouds/cloud3.png" style="--i:3;">
+      <img src="clouds/cloud4.png" style="--i:4;">
+      <img src="clouds/cloud5.png" style="--i:5;">
+    </div>
+
+    <div id="rain"></div>
+
+    <div id="sun"></div>
+
+    <div id="input_container">
+      <h1>Weather Checker</h1>
+
+      <label for="input">Enter your city's name: </label>
+      <br>
+      <input type="text" name="input" id="input">
+      <br>
+      <button id="submit">Check Weather</button>
+      <div id="weather_info">
+        <div id="description"></div>
+        <div id="temp"></div>
+      </div>
+    </div>
+    <div id="time">
+      <h1 id="date"></h1>
+    </div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
